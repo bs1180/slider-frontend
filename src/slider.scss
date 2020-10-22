@@ -37,6 +37,7 @@
   img {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
+    width: 20px;
   }
 }
 
@@ -56,6 +57,9 @@
   &:hover {
     background: rgba(228, 228, 228, 0.356);
     cursor: pointer;
+  }
+  img {
+    width: 20px;
   }
 }
 
