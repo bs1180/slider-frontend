@@ -15,7 +15,7 @@ class Login extends React.Component {
   handleSubmit = (e) => {
     e.preventDefault();
     console.log("attempting to login");
-    fetch("http://localhost:3000/users")
+    fetch("https://wild-slider-api.herokuapp.com/users")
       .then((res) => res.json())
       .then((users) => {
         let currentUser = users.find((user) => user.name === this.state.name);

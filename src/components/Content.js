@@ -7,7 +7,7 @@ class Content extends React.Component {
     images: [],
   };
   componentDidMount() {
-    fetch("http://localhost:3000/images")
+    fetch("https://wild-slider-api.herokuapp.com/images")
       .then((res) => res.json())
       .then((data) => {
         this.setState({ images: data });
