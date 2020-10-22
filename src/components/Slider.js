@@ -46,7 +46,6 @@ class Slider extends React.Component {
                 alt="slid-img"
                 className="imgStyles"
               ></img>
-              ;
             </div>
           );
         })}

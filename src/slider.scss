@@ -67,3 +67,27 @@
   width: 100%;
   height: auto;
 }
+
+@media screen and (max-width: 400px) {
+  .slider {
+    width: 290px;
+    height: 380px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background: none;
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+  #rightButton {
+    top: 85%;
+    right: 49%;
+  }
+  #leftButton {
+    top: 85%;
+    left: 31%;
+  }
+}
